@@ -66,4 +66,3 @@ RF24 (SPI Pins):
 - SCK to 13
 - MISO to 12
 - MOSI to 11
-- SS to 10
