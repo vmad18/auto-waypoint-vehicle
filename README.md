@@ -20,7 +20,7 @@ Of course, you can always change the controller, prehaps something that uses pot
 - QMC5883L Compass (Used for getting the orientation of the vehicle) 
 - Three (3) Push Switch Buttons
 
-#Theory 
+# Theory 
 
 The inclusion of the compass helps with the orientation of the vehcile and is "North" (0 degrees) referenced. 
 
