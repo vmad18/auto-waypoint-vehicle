@@ -17,8 +17,9 @@ Of course, you can always change the controller, prehaps something that uses pot
 - ADXL345 Accelerometer (Used for controller)
 - RF24 (2) (Used for wireless communication) 
 - GPS Module (I suggest the GT-U7) 
-- QMC5883L Compass (Used for getting the orientation of the vehicle. It used an I2C communication protocol) 
+- QMC5883L Magnetometer (Used for getting the orientation of the vehicle. It used an I2C communication protocol) 
 - Three (3) Push Switch Buttons
+- 12V Power Supply
 
 # Theory 
 
@@ -30,3 +31,10 @@ The Haversine Formula, a mathematical formula used for spherical geometery and n
 So knowing the orientation of the vehcile and the desired pitch needed, one can turn the vehcile and get to the desired pitch. 
 
 Additionally, the formula can be used to get the distance between two coordinates. 
+
+# Build 
+
+When building, note, make sure to keep the magnetometer (compass) elevated in such a way that it is away from the motors as there could be magnetic interference that could cause inaccurate data. 
+
+The GPS module may take time to connect with the satellites and also needs to have a clear view of the sky. 
+
