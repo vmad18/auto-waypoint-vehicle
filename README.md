@@ -17,7 +17,7 @@ Of course, you can always change the controller, prehaps something that uses pot
 - ADXL345 Accelerometer (Used for controller)
 - RF24 (2) (Used for wireless communication) 
 - GPS Module (I suggest the GT-U7) 
-- QMC5883L Compass (Used for getting the orientation of the vehicle) 
+- QMC5883L Compass (Used for getting the orientation of the vehicle. It used an I2C communication protocol) 
 - Three (3) Push Switch Buttons
 
 # Theory 
