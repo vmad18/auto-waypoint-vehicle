@@ -7,7 +7,7 @@ This arduino based autonomous vehcile can set waypoints of its current location 
 
 Additionally, it can do a "return to home" to go to the "home" waypoint. 
 
-The vehcile can be operated via 'gesture control' or more specifically put, accelerometer orientation to control the way in which the vehcile will move (forward, left, right, nothing). 
+The vehicle can be operated via 'gesture control' or more specifically put, accelerometer orientation to control the way in which the vehicle will move (forward, left, right, nothing). 
 
 Of course, you can always change the controller, prehaps something that uses potentiometers to emulate the same effect. 
 
